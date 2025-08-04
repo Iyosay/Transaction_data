@@ -1,0 +1,9 @@
+*.env
+*Terraform/*terraform*
+*terraform.lock.hcl
+*__pycache__
+*logs
+*plugins
+*config
+*venv
+*docker-compose.yaml
