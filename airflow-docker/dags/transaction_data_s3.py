@@ -17,7 +17,7 @@ formats them into a DataFrame, and uploads the data as a Parquet file to an S3 b
 """
 
 # Constants
-RECORD_COUNT = fake.random_int(50, 100)
+RECORD_COUNT = fake.random_int(500000, 1000000)
 CITY = [
     "London",
     "Manchester",
